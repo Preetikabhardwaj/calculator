@@ -7,14 +7,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(255, 254, 254);
+    background: rgb(230, 183, 183);
     box-sizing: border-box;
 }
 
 .cal{
     height: 580px;
     width: 350px;
-    background-color: rgb(10, 51, 54);
+    background-color: rgb(21, 51, 54);
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
@@ -31,7 +31,7 @@ body{
     box-sizing: border-box;
     font-size: 28px;
     color: white;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 .btn_div{
     width: 100%;
@@ -44,10 +44,11 @@ body{
     font-size: 30px;
     justify-content: center;
     padding: 0px 20px;
-    margin-left: 28px;
-    box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67);
+    /* margin-left: 28px; */
+    border: 3px solid white;
+     box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67);
 -webkit-box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67);
--moz-box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67);
+-moz-box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67); 
    
    
     
@@ -62,24 +63,29 @@ body{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: rgb(252, 249, 249);
     color: rgb(7, 7, 7);
     border: none;
     outline: none;
+    margin-left: 16px;
     cursor: pointer;
-    font-weight: 200;
-    box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67);
+    font-weight: 400;
+    font-size: x-large;
+    /* box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67);
 -webkit-box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67);
--moz-box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67);
+-moz-box-shadow: -7px -15px 75px 38px rgba(10,51,54,0.67); */
 
     
 
 }
+#cimg{
+    width: 15px;
+}
 #equal{
     grid-column: 3 / span 2;
     width: 100px;
-    height: 25px;
+    height: 27px;
     /* border-radius: 12px; */
 
 }
