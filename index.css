@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(230, 183, 183);
+    background: rgb(238, 232, 232);
     box-sizing: border-box;
 }
 
@@ -84,7 +84,7 @@ body{
 }
 #equal{
     grid-column: 3 / span 2;
-    width: 100px;
+    width: 120px;
     height: 27px;
     /* border-radius: 12px; */
 
